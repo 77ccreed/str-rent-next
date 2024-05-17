@@ -50,9 +50,8 @@ const Header = () => {
 
   return (
     <header
-      className={`top-0 z-40 mx-auto w-full flex-none bg-white transition-all duration-100 ease-in dark:bg-slate-900 md:bg-white/90 md:backdrop-blur-sm dark:md:bg-slate-900/90 ${
-        isSticky ? 'sticky' : 'relative'
-      }`}
+      className={`top-0 z-40 mx-auto w-full flex-none bg-white transition-all duration-100 ease-in dark:bg-slate-900 md:bg-white/90 md:backdrop-blur-sm dark:md:bg-slate-900/90 ${isSticky ? 'sticky' : 'relative'
+        }`}
       id="header"
     >
       <div className="mx-auto w-full max-w-7xl py-3 px-3 md:flex md:justify-between md:py-3.5 md:px-4">
@@ -71,12 +70,11 @@ const Header = () => {
           </div>
         </div>
         <nav
-          className={`${isToggleMenuOpen ? 'block' : 'hidden'} h-screen md:w-full ${
-            position === 'right' ? 'justify-end' : position === 'left' ? 'justify-start' : 'justify-center'
-          } w-auto overflow-y-auto dark:text-slate-200 md:mx-5 md:flex md:h-auto md:items-center md:overflow-visible`}
+          className={`${isToggleMenuOpen ? 'block' : 'hidden'} h-screen md:w-full ${position === 'right' ? 'justify-end' : position === 'left' ? 'justify-start' : 'justify-center'
+            } w-auto overflow-y-auto dark:text-slate-200 md:mx-5 md:flex md:h-auto md:items-center md:overflow-visible`}
           aria-label="Main navigation"
         >
-          <ul className="flex w-full flex-col pt-8 text-xl md:w-auto md:flex-row md:self-center md:pt-0 md:text-base">
+          <ul className="flex flex-col w-full pt-8 text-xl md:w-auto md:flex-row md:self-center md:pt-0 md:text-base">
             {links &&
               links.map(({ label, href, icon: Icon, links }, index) => (
                 <li key={`item-link-${index}`} className={links?.length ? 'dropdown' : ''}>
@@ -89,14 +87,13 @@ const Header = () => {
                         {label} {Icon && <Icon className="ml-0.5 hidden h-3.5 w-3.5 md:inline" />}
                       </button>
                       <ul
-                        className={`${
-                          isDropdownOpen[index] ? 'block' : 'md:hidden'
-                        } rounded pl-4 font-medium drop-shadow-xl md:absolute md:min-w-[200px] md:bg-white/90 md:pl-0 md:backdrop-blur-md dark:md:bg-slate-900/90`}
+                        className={`${isDropdownOpen[index] ? 'block' : 'md:hidden'
+                          } rounded pl-4 font-medium drop-shadow-xl md:absolute md:min-w-[200px] md:bg-white/90 md:pl-0 md:backdrop-blur-md dark:md:bg-slate-900/90`}
                       >
                         {links.map(({ label: label2, href: href2 }, index2) => (
                           <li key={`item-link-${index2}`}>
                             <Link
-                              className="whitespace-no-wrap block py-2 px-5 first:rounded-t last:rounded-b dark:hover:bg-gray-700 md:hover:bg-gray-200"
+                              className="block px-5 py-2 whitespace-no-wrap first:rounded-t last:rounded-b dark:hover:bg-gray-700 md:hover:bg-gray-200"
                               href={href2 as string}
                               onClick={() =>
                                 isToggleMenuOpen ? handleToggleMenuOnClick() : handleCloseDropdownOnClick(index)
@@ -122,11 +119,10 @@ const Header = () => {
           </ul>
         </nav>
         <div
-          className={`${
-            isToggleMenuOpen ? 'block' : 'hidden'
-          } fixed bottom-0 left-0 w-full justify-end p-3 md:static md:mb-0 md:flex md:w-auto md:self-center md:p-0`}
+          className={`${isToggleMenuOpen ? 'block' : 'hidden'
+            } fixed bottom-0 left-0 w-full justify-end p-3 md:static md:mb-0 md:flex md:w-auto md:self-center md:p-0`}
         >
-          <div className="flex w-full items-center justify-between md:w-auto">
+          <div className="flex items-center justify-between w-full md:w-auto">
             {showToggleTheme && <ToggleDarkMode />}
             {showRssFeed && (
               <Link
@@ -134,11 +130,11 @@ const Header = () => {
                 aria-label="RSS Feed"
                 href=""
               >
-                <IconRss className="h-5 w-5" />
+                <IconRss className="w-5 h-5" />
               </Link>
             )}
-            {actions && actions.length > 0 && (
-              <div className="ml-4 flex w-max flex-wrap justify-end">
+            {/*actions && actions.length > 0 && (
+              <div className="flex flex-wrap justify-end ml-4 w-max">
                 {actions.map((callToAction, index) => (
                   <CTA
                     key={`item-action-${index}`}
@@ -147,7 +143,7 @@ const Header = () => {
                   />
                 ))}
               </div>
-            )}
+            )*/}
           </div>
         </div>
       </div>
