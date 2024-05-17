@@ -1,6 +1,7 @@
 import {
   IconArrowDown,
   IconArrowsRightLeft,
+  IconBuilding,
   IconBrandLinkedin,
   IconBrandTailwind,
   IconBrandTwitter,
@@ -586,7 +587,7 @@ export const contactHome: ContactProps = {
   items: [
     {
       title: 'Meie aadress',
-      description: ['1230 Maecenas Street Donec Road', 'Valga, Eesti'],
+      description: ['Kesk 10', 'Valga, Eesti'],
       icon: IconMapPin,
     },
     {
@@ -596,8 +597,13 @@ export const contactHome: ContactProps = {
     },
     {
       title: 'Tööaeg',
-      description: ['Esmaspäev - Reede: 08:00 - 17:00', 'Laupäev: 08:00 - 12:00', 'Pühapäev: Kokkuleppel'],
+      description: ['Esmaspäev - Reede: 07:00 - 17:00', 'Laupäev: 08:00 - 13:00', 'Pühapäev: Kokkuleppel'],
       icon: IconClock,
+    },
+    {
+      title: 'Stremark OÜ',
+      description: ['Reg. kood: 12100480', 'EE891010220194981229'],
+      icon: IconBuilding,
     },
   ],
   form: {
