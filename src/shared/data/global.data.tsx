@@ -10,10 +10,10 @@ import { AnnouncementProps, FooterProps, HeaderProps } from '../types';
 
 // Announcement data
 export const announcementData: AnnouncementProps = {
-  title: 'NEW',
+  title: 'Kesk tänav 10, Valga',
   callToAction: {
-    text: 'This template is made with Next.js 14 using the new App Router »',
-    href: 'https://nextjs.org/blog/next-14',
+    text: 'Sissepääs Pärna pst kaudu!',
+    href: 'https://www.google.com/maps/@57.7783446,26.0349477,3a,75y,262.56h,87.49t/data=!3m6!1e1!3m4!1sHed5AuqcX926_YeAljU4DA!2e0!7i13312!8i6656?entry=ttu',
   },
   callToAction2: {
     text: 'Follow @onWidget on Twitter',
