@@ -29,7 +29,7 @@ import {
   TeamProps,
   TestimonialsProps,
 } from '../../types';
-import heroImg from '~/assets/images/hero.jpg';
+import heroImg from '~/assets/images/hero.png';
 import nextJsLogo from '~/assets/images/nextjs-logo.png';
 import reactLogo from '~/assets/images/react-logo.png';
 import tailwindCssLogo from '~/assets/images/tailwind-css-logo.png';
@@ -52,16 +52,16 @@ export const heroHome: HeroProps = {
         <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
           STR Rent
         </span>{' '}
-        on juhtiv tööriistade renditeenus Valgas. Olgu teil vaja tööriistu professionaalseks ehitustööks või isetegemisprojektiks, meil on kõik vajalik olemas.
+        - pakume tööriistade renditeenust Valgas. Olgu teil vaja tööriistu professionaalseks ehitustööks või isetegemisprojektiks, meil on kõik olemas.
       </span>{' '}
-      Meie laiaulatuslik tööriistade valik, taskukohased hinnad ja suurepärane klienditeenindus teevad meist teie esimeseks valikuks kõikide tööriistade rendivajaduste korral.
+      Laiaulatuslik valik ja taskukohased hinnad teevad meist teie esimeseks valikuks tööriistade rentimisel.
     </>
   ),
   callToAction: {
-    text: 'Get template',
-    href: 'https://github.com/onwidget/tailnext',
-    icon: IconDownload,
-    targetBlank: true,
+    text: 'Vaata asukohta',
+    href: '/kontaktid',
+    icon: IconBuilding,
+    //targetBlank: true,
   },
   callToAction2: {
     text: 'Learn more',
@@ -69,37 +69,10 @@ export const heroHome: HeroProps = {
   },
   image: {
     src: heroImg,
-    alt: 'Hero TailNext',
+    alt: 'STR Rent - Tööriistade rentimine Valgas',
   },
 };
 
-// SocialProof data on Home page *******************
-export const socialProofHome: SocialProofProps = {
-  id: 'socialProof-on-home',
-  hasBackground: false,
-  images: [
-    {
-      link: 'https://nextjs.org/',
-      src: nextJsLogo,
-      alt: 'NextJs Logo',
-    },
-    {
-      link: 'https://react.dev/',
-      src: reactLogo,
-      alt: 'React Logo',
-    },
-    {
-      link: 'https://tailwindcss.com/',
-      src: tailwindCssLogo,
-      alt: 'Tailwind CSS Logo',
-    },
-    {
-      link: 'https://www.typescriptlang.org/',
-      src: typescriptLogo,
-      alt: 'Typescript Logo',
-    },
-  ],
-};
 
 // Features data on Home page *******************
 export const featuresHome: FeaturesProps = {
