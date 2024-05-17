@@ -49,8 +49,8 @@ export const headerData: HeaderProps = {
           href: '/faqs',
         },
         {
-          label: 'Terms & Conditions',
-          href: '/terms',
+          label: 'Teenuse tingimused',
+          href: '/teenusetingimused',
         },
         {
           label: 'Privacy Policy',
@@ -85,8 +85,8 @@ export const footerData: FooterProps = {
   title: 'TailNext',
   links: [
     {
-      label: 'Terms & Conditions',
-      href: '/terms',
+      label: 'Teenuse tingimused',
+      href: '/teenusetingimused',
     },
     {
       label: 'Privacy Policy',
@@ -223,8 +223,8 @@ export const footerData: FooterProps = {
 export const footerData2: FooterProps = {
   links: [
     {
-      label: 'Terms & Conditions',
-      href: '/terms',
+      label: 'Teenuse tingimused',
+      href: '/teenusetingimused',
     },
     {
       label: 'Privacy Policy',
