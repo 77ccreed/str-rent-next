@@ -82,7 +82,7 @@ export const headerData: HeaderProps = {
 
 // Footer data
 export const footerData: FooterProps = {
-  title: 'TailNext',
+  title: 'STR Rent',
   links: [
     {
       label: 'Teenuse tingimused',
@@ -233,11 +233,11 @@ export const footerData2: FooterProps = {
   ],
   columns: [
     {
-      title: 'Address',
-      texts: ['Kesk tänav 10, Valga 68203, Estonia'],
+      title: 'Aadress',
+      texts: ['Kesk tänav 10, Valga 68201, Eesti'],
     },
     {
-      title: 'Phone',
+      title: 'Telefon',
       texts: ['Reception: +105 123 4567', 'Office: +107 235 7890'],
     },
     {
