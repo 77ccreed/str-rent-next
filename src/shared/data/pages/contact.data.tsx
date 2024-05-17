@@ -4,14 +4,15 @@ import { HeroProps } from '~/shared/types';
 
 // Hero data on Contact page *******************
 export const heroContact: HeroProps = {
-  title: 'Get in touch with us',
+  title: 'Võtke meiega ühendust',
   subtitle: (
     <>
-      <span className="hidden md:inline">{`Thank you for considering us for your project! We're excited to hear from you.`}</span>{' '}
-      {`Our team can assist you in building your dream website.`}
+      <span className="hidden md:inline">{`STR Rent - Sinu tööriistade rendipartner Valgas.`}
+      </span>{' '}
+      {`Aitame ellu viia Sinu projekte, pakkudes kvaliteetseid tööriistu igasugusteks töödeks.`}
     </>
   ),
-  tagline: 'Demo Contact Page',
+  tagline: 'Kontaktide leht',
 };
 
 // Contact data on Contact page *******************
@@ -19,92 +20,75 @@ export const contact2Contact: ContactProps = {
   id: 'contactTwo-on-contact',
   hasBackground: true,
   header: {
-    title: 'Contact us',
+    title: 'Saada meile sõnum',
     subtitle: (
       <>
-        Please take a moment to fill out this form.{' '}
-        <span className="hidden md:inline">{`So we can better understand your needs and get the process started smoothly.`}</span>
+        Palume Sul võtta hetk ja täita allolev vorm.{' '}
+        <span className="hidden md:inline">{`See aitab meil paremini mõista Sinu vajadusi ja leida sobiv lahendus.`}</span>
       </>
     ),
   },
   items: [
     {
-      title: 'Our Address',
-      description: ['1230 Maecenas Street Donec Road', 'New York, EEUU'],
+      title: 'Meie asukoht',
+      description: ['Kesk tänav 10, Valga, 68203, Eesti'],
       icon: IconMapPin,
     },
     {
-      title: 'Contact',
+      title: 'Kontaktt',
       description: ['Mobile: +1 (123) 456-7890', 'Mail: tailnext@gmail.com'],
       icon: IconPhoneCall,
     },
     {
-      title: 'Working hours',
-      description: ['Monday - Friday: 08:00 - 17:00', 'Saturday & Sunday: 08:00 - 12:00'],
+      title: 'Tööaeg',
+      description: ['Esmaspäev - reede: 07:00 - 17:00', 'Laupäev: 08:00 - 13:00'],
       icon: IconClock,
     },
   ],
   form: {
-    title: 'Ready to Get Started?',
+    title: 'Kirjuta meile oma probleemist',
     inputs: [
       {
         type: 'text',
-        label: 'First name',
+        label: 'Nimi',
         name: 'name',
         autocomplete: 'off',
-        placeholder: 'First name',
-      },
-      {
-        type: 'text',
-        label: 'Last name',
-        name: 'lastName',
-        autocomplete: 'off',
-        placeholder: 'Last name',
+        placeholder: 'Nimi',
       },
       {
         type: 'email',
-        label: 'Email address',
+        label: 'Email',
         name: 'email',
         autocomplete: 'on',
-        placeholder: 'Email address',
+        placeholder: 'Email',
       },
     ],
     radioBtns: {
-      label: 'What is the reason for your contact?',
+      label: 'Vali teema',
       radios: [
         {
-          label: 'General inquiries',
+          label: 'Tööriistade rent',
         },
         {
-          label: 'Technical help',
+          label: 'Küsimused',
         },
         {
-          label: 'Claims',
+          label: 'Tagasiside',
         },
         {
-          label: 'Others',
+          label: 'Muu',
         },
       ],
     },
     textarea: {
       cols: 30,
       rows: 5,
-      label: 'How can we help you?',
+      label: 'Sõnum',
       name: 'textarea',
-      placeholder: 'Write your message...',
+      placeholder: 'Kirjuta siia oma sõnum',
     },
-    checkboxes: [
-      {
-        label: 'Have you read our privacy policy?',
-        value: '',
-      },
-      {
-        label: 'Do you want to receive monthly updates by email?',
-        value: '',
-      },
-    ],
     btn: {
-      title: 'Send Message',
+      title: 'Saada sõnum',
       type: 'submit',
     },
   },
@@ -114,16 +98,16 @@ export const contact2Contact: ContactProps = {
 export const features2Contact: FeaturesProps = {
   columns: 3,
   header: {
-    title: 'Support Center',
-    subtitle: 'Looking for something in particular?',
+    title: 'Kuidas saame aidata?',
+    subtitle: 'Kui Sul on küsimusi, võta meiega ühendust.',
   },
   items: [
     {
-      title: 'Have a question?',
-      description: 'See our frequently asked questions',
+      title: 'Külasta meie KKK lehte',
+      description: 'Vaata vastuseid enamlevinud küsimustele.',
       icon: IconHelp,
       callToAction: {
-        text: 'Go to FAQ page',
+        text: 'Külasta KKK lehte',
         href: '/faqs',
       },
     },
