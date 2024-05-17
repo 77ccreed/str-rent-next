@@ -41,20 +41,19 @@ import gasImg from '~/assets/images/gas.jpg';
 export const heroHome: HeroProps = {
   title: (
     <>
-      Free template for <span className="hidden md:inline">starts a website using</span> <span>Next.js</span> +{' '}
-      <span className="sm:whitespace-nowrap">Tailwind CSS</span>
+      Rentige tööriistu soodsalt <span className="hidden md:inline">Valgas</span>{' '}
+      <span className="sm:whitespace-nowrap">juba täna!</span>
     </>
   ),
   subtitle: (
     <>
       <span className="hidden md:inline">
         <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
-          TailNext
+          STR Rent
         </span>{' '}
-        is a production ready template to start your new website using <em>Next.js</em> + <em>Tailwind CSS</em>.
+        on juhtiv tööriistade renditeenus Valgas. Olgu teil vaja tööriistu professionaalseks ehitustööks või isetegemisprojektiks, meil on kõik vajalik olemas.
       </span>{' '}
-      It has been designed following Best Practices, SEO, Accessibility, Dark Mode, great Page Speed, image
-      optimization.
+      Meie laiaulatuslik tööriistade valik, taskukohased hinnad ja suurepärane klienditeenindus teevad meist teie esimeseks valikuks kõikide tööriistade rendivajaduste korral.
     </>
   ),
   callToAction: {
@@ -109,76 +108,46 @@ export const featuresHome: FeaturesProps = {
   header: {
     title: (
       <>
-        What you get with <span className="whitespace-nowrap">TailNext</span>
+        Mida pakub <span className="whitespace-nowrap">STR Rent</span>
       </>
     ),
-    subtitle:
-      "Elevating Your Digital Presence: Discover the Synergies Unleashed in Our Platform's Core Strengths, from Seamless Integration to Open Collaboration.",
-    tagline: 'Features',
+    subtitle: 'Tutvuge meie peamiste eeliste ja teenustega, mis teevad meist parima valiku tööriistade rentimiseks Valgas.',
+    tagline: 'Funktsioonid',
   },
   items: [
     {
-      title: 'Next.Js + Tailwind CSS Integration',
+      title: 'Lai tööriistade valik',
       description:
-        'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
-      icon: IconBrandTailwind,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
-    },
-    {
-      title: 'Ready-to-use Components',
-      description:
-        'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
-      icon: IconComponents,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
-    },
-    {
-      title: 'Best Practices',
-      description:
-        'By prioritizing maintainability and scalability through coding standards and design principles, your website stays robust and efficient.',
+        'Pakume laia valikut tööriistu erinevateks projektideks, sealhulgas ehitustöödeks, maastikukujunduseks ja kodu parendamiseks.',
       icon: IconListCheck,
       callToAction: {
-        text: 'Discover now',
-        href: '/',
+        text: 'Vaata lähemalt',
+        href: '/tools',
       },
     },
     {
-      title: 'Excellent Page Speed',
+      title: 'Kvaliteet ja töökindlus',
       description:
-        'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
-      icon: IconRocket,
+        'Meie tööriistad pärinevad tuntud kaubamärkidelt ja on regulaarselt hooldatud, et tagada nende suurepärane tööseisund.',
+      icon: IconCheck,
       callToAction: {
-        text: 'Discover now',
-        href: '/',
+        text: 'Vaata lähemalt',
+        href: '/quality',
       },
     },
     {
-      title: 'Search Engine Optimization (SEO)',
+      title: 'Taskukohased hinnad',
       description:
-        "Boost online visibility with our SEO-friendly website. Effective strategies and practices enhance your website's search engine ranking, making it easier for users to find your content.",
-      icon: IconArrowsRightLeft,
+        'Pakume konkurentsivõimelisi rendihindu, mis ei tee teie rahakotile liiga. Rentimine on kuluefektiivne lahendus nii lühiajalisteks kui ka pikaajalisteks projektideks.',
+      icon: IconClock,
       callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
-    },
-    {
-      title: 'Open to new ideas and contributions',
-      description:
-        'We welcome new ideas and contributions to our platform. Whether you have feature suggestions, want to contribute code, or share insights, our platform is open for collaboration.',
-      icon: IconBulb,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
+        text: 'Vaata hinnakirja',
+        href: '/pricing',
       },
     },
   ],
 };
+
 
 // Content data on Home page *******************
 export const contentHomeOne: ContentProps = {
@@ -258,35 +227,39 @@ export const stepsHome: StepsProps = {
   isImageDisplayed: true,
   image: {
     src: gasImg,
-    alt: 'Steps image',
+    alt: 'Steps Image',
   },
   header: {
-    title: 'Sed ac magna sit amet risus tristique interdum.',
+    title: 'Kuidas tööriistu rentida',
   },
   items: [
     {
-      title: 'Step 1',
+      title: '1. Samm',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla. Praesent placerat enim ut ex tincidunt vehicula. Fusce sit amet dui tellus.',
+        'Külastage meie veebisaiti või helistage meile, et kontrollida vajalike tööriistade saadavust.',
       icon: IconArrowDown,
     },
     {
-      title: 'Step 2',
+      title: '2. Samm',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla.',
+        'Esitage meile vajalikud andmed, sealhulgas rendi kestus ja konkreetsed nõuded.',
       icon: IconArrowDown,
     },
     {
-      title: 'Step 3',
+      title: '3. Samm',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla.',
+        'Kui teie broneering on kinnitatud, saate tööriistad mugavalt meie Valga asukohast kätte.',
       icon: IconArrowDown,
     },
     {
-      title: 'Ready!',
+      title: '4. Samm',
+      description:
+        'Tagastage tööriistad kokkulepitud kuupäeval, et vältida lisatasusid.',
+      icon: IconCheck,
     },
   ],
 };
+
 
 // Testimonials data on Home page *******************
 export const testimonialsHome: TestimonialsProps = {
@@ -366,38 +339,35 @@ export const faqs2Home: FAQsProps = {
   id: 'faqsTwo-on-home',
   hasBackground: false,
   header: {
-    title: 'Frequently Asked Questions',
+    title: 'Korduma Kippuvad Küsimused',
     subtitle:
-      'Duis turpis dui, fringilla mattis sem nec, fringilla euismod neque. Morbi tincidunt lacus nec tortor scelerisque pulvinar.',
-    tagline: 'FAQS',
+      'Siin on vastused mõnedele levinud küsimustele meie tööriistade renditeenuse kohta.',
+    tagline: 'KKK',
   },
   items: [
     {
-      title: 'What do I need to start?',
-      description: `Nunc mollis tempor quam, non fringilla elit sagittis in. Nullam vitae consectetur mi, a elementum arcu. Sed laoreet, ipsum et vehicula dignissim, leo orci pretium sem, ac condimentum tellus est quis ligula.`,
+      title: 'Millised on maksetingimused?',
+      description: `Meie juures saab maksta nii sularahas, kaardiga kui ka arvega, et pakkuda teile maksimaalset mugavust.`,
     },
     {
-      title: 'How to install the NextJS + Tailwind CSS template?',
-      description: `Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer eleifend vestibulum nisl in iaculis. Mauris dictum ac purus vestibulum auctor. Praesent imperdiet lectus et massa faucibus, quis viverra massa rhoncus.`,
+      title: 'Millised on tööriistade rentimise ja tagastamise ajad?',
+      description: `Tööriistu saab rentida ja tagastada esmaspäevast laupäevani. Pühapäeviti kokkuleppel.`,
     },
     {
-      title: "What's something that you completely don't understand?",
-      description: `Mauris vitae eros a dui varius luctus. Suspendisse rutrum, sapien nec blandit bibendum, justo sapien sollicitudin erat, id aliquam sapien purus quis leo. Aliquam vulputate vestibulum consectetur.`,
+      title: 'Kas tööriistadele kehtib mingisugune kindlustus või garantii?',
+      description: `Tööriistadele kehtib kindlustus juhuks, kui tööriist peaks töötamise ajal rikki minema või kahjustuma.`,
     },
     {
-      title: "What's an example of when you changed your mind?",
-      description: `Nunc dapibus lacinia ipsum ut elementum. Integer in pretium sapien. Ut pretium nisl mauris, ut rutrum justo condimentum id. Etiam aliquet, arcu at iaculis laoreet, est arcu egestas sapien, eget sollicitudin odio orci et nunc.`,
+      title: 'Kas tööriistade rentimisele lisandub ka tagatisraha?',
+      description: `Meie juures ei lisandu tööriistade rentimisele tagatisraha.`,
     },
     {
-      title: 'What is something that you would really like to try again?',
-      description: `Duis in maximus mauris, id eleifend mauris. Nam a fringilla arcu. Curabitur convallis, tellus non aliquet rhoncus, lacus massa auctor eros, in interdum lectus augue sed augue. Fusce tempor ex id faucibus efficitur.`,
-    },
-    {
-      title: 'If you could only ask one question to each person you meet, what would that question be?',
-      description: `Nullam imperdiet sapien tincidunt erat dapibus faucibus. Vestibulum a sem nec lorem imperdiet scelerisque non sed lacus. Ut pulvinar id diam vitae auctor. Nam tempus, neque et elementum consectetur, ex ipsum pulvinar risus, vel sodales ligula tortor eu eros.`,
+      title: 'Kas pakute tööriistade transporti kliendi asukohta?',
+      description: `Pakume tööriistade transporti Valga valla piires. Valga linna piires on transport tasuta.`,
     },
   ],
 };
+
 
 // Pricing data on Home page *******************
 export const pricingHome: PricingProps = {
@@ -607,57 +577,58 @@ export const teamHome: TeamProps = {
 export const contactHome: ContactProps = {
   hasBackground: true,
   header: {
-    title: 'Get in Touch',
-    subtitle: 'In hac habitasse platea dictumst',
-    tagline: 'Contact',
+    title: 'Võtke meiega ühendust',
+    subtitle: 'Kui teil on küsimusi või soovite rohkem teavet meie teenuste kohta, võtke meiega ühendust.',
+    tagline: 'Kontakt',
   },
   content:
-    'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis nec ipsum orci. Ut scelerisque sagittis ante, ac tincidunt sem venenatis ut.',
+    'Meie meeskond on valmis aitama teid kõikides tööriistade rendiga seotud küsimustes. Võtke meiega ühendust telefoni või e-posti teel või külastage meid Valgas.',
   items: [
     {
-      title: 'Our Address',
-      description: ['1230 Maecenas Street Donec Road', 'New York, EEUU'],
+      title: 'Meie aadress',
+      description: ['1230 Maecenas Street Donec Road', 'Valga, Eesti'],
       icon: IconMapPin,
     },
     {
-      title: 'Contact',
-      description: ['Mobile: +1 (123) 456-7890', 'Mail: tailnext@gmail.com'],
+      title: 'Kontakt',
+      description: ['Mobiil: +372 1234 5678', 'E-post: info@strrent.ee'],
       icon: IconPhoneCall,
     },
     {
-      title: 'Working hours',
-      description: ['Monday - Friday: 08:00 - 17:00', 'Saturday & Sunday: 08:00 - 12:00'],
+      title: 'Tööaeg',
+      description: ['Esmaspäev - Reede: 08:00 - 17:00', 'Laupäev: 08:00 - 12:00', 'Pühapäev: Kokkuleppel'],
       icon: IconClock,
     },
   ],
   form: {
-    title: 'Ready to Get Started?',
+    title: 'Valmis alustama?',
     inputs: [
       {
         type: 'text',
         name: 'name',
         autocomplete: 'off',
-        placeholder: 'Your name',
+        placeholder: 'Teie nimi',
       },
       {
         type: 'email',
         name: 'email',
         autocomplete: 'on',
-        placeholder: 'Your email address',
+        placeholder: 'Teie e-posti aadress',
       },
     ],
     textarea: {
       cols: 30,
       rows: 5,
       name: 'textarea',
-      placeholder: 'Write your message...',
+      placeholder: 'Kirjutage oma sõnum...',
     },
     btn: {
-      title: 'Send Message',
+      title: 'Saada sõnum',
       type: 'submit',
     },
   },
 };
+
 
 // CallToAction data *******************
 export const callToAction2Home: CallToActionProps = {
