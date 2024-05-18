@@ -7,7 +7,7 @@ export const heroContact: HeroProps = {
   title: 'Võtke meiega ühendust',
   subtitle: (
     <>
-      <span className="hidden md:inline">{`STR Rent - Sinu tööriistade rendipartner Valgas.`}
+      <span className="hidden md:inline">{`STR Rent - tööriistade rendipartner Valgas.`}
       </span>{' '}
       {`Aitame ellu viia Sinu projekte, pakkudes kvaliteetseid tööriistu igasugusteks töödeks.`}
     </>
