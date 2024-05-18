@@ -64,8 +64,8 @@ export const heroHome: HeroProps = {
     //targetBlank: true,
   },
   callToAction2: {
-    text: 'Learn more',
-    href: '/',
+    text: 'Uuri lähemalt',
+    href: '/meist',
   },
   image: {
     src: heroImg,

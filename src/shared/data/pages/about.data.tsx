@@ -38,24 +38,25 @@ import {
 
 // Hero2 data on About page *******************
 export const hero2About: HeroProps = {
-  title: 'Great companies are made by great people',
+  title: 'Suurepärased ettevõtted koosnevad suurepärastest inimestest',
   subtitle:
-    'Vivamus venenatis, lectus a pellentesque placerat, felis tellus ultrices eros, et aliquam sapien nibh sed sem. Fusce ut ante eget purus viverra malesuada. Morbi eget mi maximus, ultricies urna eget, tristique lorem. Fusce cursus venenatis quam, a blandit lectus vulputate id. Praesent id interdum orci, vitae condimentum dui.',
-  tagline: 'About Us Demo Page',
+    'Tere tulemast STR Renti, teie usaldusväärse tööriistarendi teenusepakkuja juurde Valgas.Pakume laia valikut kvaliteetseid tööriistu igasugusteks projektideks, olgu need siis professionaalsed ehitustööd või kodused meisterdamisprojektid.Meie eesmärk on pakkuda parimat teenust ja toetada iga klienti nende eesmärkide saavutamisel.',
+  tagline: 'Tutvuge meiega',
   callToAction: {
-    text: 'View jobs',
+    text: 'Vaata vabu töökohti',
     href: 'https://www.linkedin.com/',
     targetBlank: true,
   },
   callToAction2: {
-    text: 'Contact us',
+    text: 'Võta ühendust',
     href: '/contact',
   },
   image: {
     src: hero2Img,
-    alt: 'Hero TailNext',
+    alt: 'STR Rent - Usaldusväärne tööriistarent Valgas',
   },
 };
+
 
 // Stats data on About page *******************
 export const statsAbout: StatsProps = {
@@ -63,81 +64,81 @@ export const statsAbout: StatsProps = {
   hasBackground: true,
   items: [
     {
-      title: 13269,
-      description: 'Downloads',
+      title: '13',
+      description: 'Aastat kogemust',
     },
     {
-      title: 24.8,
-      description: 'Stars',
+      title: '500+',
+      description: 'Rahulolevat klienti',
     },
     {
-      title: 1767.77,
-      description: 'Forks',
+      title: '2000+',
+      description: 'Renditud tööriistad',
     },
     {
-      title: 484000,
-      description: 'Users',
+      title: '100+',
+      description: 'Projektid',
     },
   ],
 };
+
 
 // FeaturesFour data on About page *******************
 export const featuresFourAbout: FeaturesProps = {
   id: 'features-four-on-about',
   hasBackground: false,
   header: {
-    title: 'Our mission',
-    subtitle:
-      'Quisque laoreet nisi et lectus consectetur, at placerat libero dictum. Donec sed hendrerit turpis. Nunc vel nibh blandit, hendrerit turpis non, mattis magna. Duis feugiat dui mi, eget iaculis ligula gravida congue. Nam quis mauris id eros imperdiet imperdiet. In et dolor non nisi vestibulum rhoncus nec eget dolor.',
-    tagline: 'Mission and Values',
+    title: 'Meie missioon',
+    subtitle: 'STR Rent on pühendunud kvaliteetse ja taskukohase tööriistarentimise pakkumisele Valga vallas, tagades iga projekti edukuse ja klientide täieliku rahulolu.',
+    tagline: 'Missioon ja väärtused',
   },
 };
+
 
 // FeaturesFour data on About page (Two) *******************
 export const featuresFourAboutTwo: FeaturesProps = {
   id: 'features-four-on-about-two',
   hasBackground: false,
   header: {
-    title: 'Our values',
-    subtitle: 'Etiam tellus tortor, mattis id mauris et, lobortis ullamcorper nunc.',
+    title: 'Meie väärtused',
+    subtitle: 'STR Rent väärtustab kõrgelt oma klientide usaldust ja püüdleb alati parima kvaliteedi poole.',
   },
   isAfterContent: true,
   columns: 2,
   items: [
     {
-      title: 'Customer-centricity',
-      description: 'Nullam non sodales massa. Ut justo neque, elementum et vehicula vel, pellentesque non orci.',
+      title: 'Kliendikesksus',
+      description: 'Meie teenused on loodud selleks, et vastata klientide vajadustele, pakkudes personaalset ja kohandatud lähenemist igale projektile.',
       icon: IconUser,
     },
     {
-      title: 'Innovation and adaptability',
-      description:
-        'Etiam ornare, purus nec venenatis porttitor, velit leo convallis dui, at porttitor nibh tortor quis velit.',
+      title: 'Innovatsioon ja kohanemisvõime',
+      description: 'Pidevalt uuendame oma tööriistade valikut ja rendiprotsesse, et olla ajaga sammu ja pakkuda parimat lahendust igale kliendile.',
       icon: IconBulb,
     },
     {
-      title: 'Quality assurance',
-      description: 'Morbi sit amet arcu vitae metus molestie auctor sit amet in risus. Sed vel lacinia purus.',
+      title: 'Kvaliteedi tagamine',
+      description: 'Iga tööriist on hoolikalt kontrollitud ja hooldatud, tagamaks nende töökindlust ja kvaliteeti.',
       icon: IconThumbUp,
     },
     {
-      title: 'Accessibility and customization',
-      description: 'Phasellus id cursus urna. Nullam feugiat tellus sed euismod venenatis.',
+      title: 'Ligipääsetavus ja kohandatavus',
+      description: 'Pakume paindlikke renditingimusi ja kohandatavaid lahendusi, et vastata erinevate projektide nõudmistele.',
       icon: IconAdjustments,
     },
     {
-      title: 'Collaboration and partnership',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis.',
+      title: 'Koostöö ja partnerlus',
+      description: 'Usume tugevatesse ja pikaajalistesse suhetesse nii klientide kui partneritega, mis põhinevad vastastikusel austusel ja usaldusel.',
       icon: IconHeartHandshake,
     },
     {
-      title: 'Ethical and responsible design',
-      description: 'Maecenas urna augue, commodo vitae lectus euismod, tempor aliquam arcu.',
+      title: 'Eetiline ja vastutustundlik tegevus',
+      description: 'Järgime oma tegevuses kõrgeid eetilisi standardeid ja püüdleme keskkonnasõbralike lahenduste poole.',
       icon: IconHomeEco,
     },
   ],
 };
+
 
 // Steps data on About page *******************
 export const stepsAbout: StepsProps = {
@@ -145,44 +146,45 @@ export const stepsAbout: StepsProps = {
   hasBackground: true,
   isImageDisplayed: false,
   header: {
-    title: 'History of TailNext',
+    title: 'STR Rendi ajalugu',
     subtitle:
-      'Duis sit amet magna et sapien cursus fermentum. Curabitur ac mauris non magna condimentum scelerisque. Aliquam nunc ipsum, semper ac scelerisque sit amet, pulvinar vitae libero.',
-    tagline: 'Company History',
+      'Tutvuge meie ettevõtte arengulooga alates asutamisest kuni tänapäevani.',
+    tagline: 'Ettevõtte ajalugu',
   },
   items: [
     {
-      title: 'Our foundation',
+      title: 'Asutamine',
       description:
-        'Donec pharetra, justo a rutrum venenatis, augue erat porta leo, non eleifend dui lectus ut turpis. Fusce tincidunt mattis magna eu commodo. Proin non facilisis enim, ut luctus dolor.',
+        'STR Rent asutati 2011. aastal, kui väike pereettevõte otsustas pakkuda tööriistarenti Valga piirkonnas. Esialgu keskenduti kohalikele ehitusettevõtetele ja isetegijatele.',
       icon: IconNumber1,
     },
     {
-      title: 'The early years',
+      title: 'Varajased aastad',
       description:
-        'Nunc scelerisque dui non nulla faucibus, sed elementum urna congue. Donec varius nisi sit amet massa malesuada euismod. Donec auctor interdum leo eget ultricies.',
+        'Algti keskendusime kvaliteetse ja töökindla inventari loomisele. Esimesed paar aastat olid pühendatud kliendibaasi ja maine ülesehitamisele.',
       icon: IconNumber2,
     },
     {
-      title: 'Growth',
+      title: 'Kasv',
       description:
-        'Vestibulum euismod dolor vel magna consectetur, vitae ornare metus finibus. Nam nec magna lacinia, cursus purus ut, pellentesque ex. Aliquam nec porta sapien, nec iaculis odio. Donec sed lacus arcu.',
+        'Järgnevate aastate jooksul laiendasime oma teenuste haaret ning hakkasime pakkuma lisaks tavalistele tööriistadele ka spetsiaalseid seadmeid. Tänu sellele kasvas meie klientide arv märkimisväärselt.',
       icon: IconNumber3,
     },
     {
-      title: 'Expanding horizons',
+      title: 'Horisondi laiendamine',
       description:
-        'Aenean mollis est ac quam viverra, eget dictum justo iaculis. Morbi venenatis neque sed blandit faucibus. Pellentesque sit amet justo at ligula eleifend lacinia. Etiam nec orci quam.',
+        'Viimastel aastatel oleme laienenud ka teistesse Eesti piirkondadesse ja alustanud koostööd suuremate ehitusprojektidega. Samuti oleme investeerinud kaasaegsesse tehnoloogiasse, et parandada teenuste kvaliteeti ja kliendikogemust.',
       icon: IconNumber4,
     },
     {
-      title: 'Our ongoing commitment',
+      title: 'Pidev pühendumus',
       description:
-        'Sed vel purus a odio tincidunt mollis. Nam et tortor est. Aliquam sodales interdum tortor ac condimentum. Suspendisse laoreet nulla est, ac luctus est tempus ut.',
+        'Oleme pühendunud oma teenuste pidevale täiustamisele ja kliendisuhete tugevdamisele. Jätkame investeeringuid kvaliteeti ja tehnoloogiasse, et pakkuda parimat võimalikku teenust kõikidele oma klientidele.',
       icon: IconNumber5,
     },
   ],
 };
+
 
 // Features3 data on About page *******************
 export const features3About: FeaturesProps = {
