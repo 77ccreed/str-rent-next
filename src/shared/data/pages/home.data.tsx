@@ -73,6 +73,33 @@ export const heroHome: HeroProps = {
   },
 };
 
+// SocialProof data on Home page *******************
+export const socialProofHome: SocialProofProps = {
+  id: 'socialProof-on-home',
+  hasBackground: false,
+  images: [
+    {
+      link: 'https://nextjs.org/',
+      src: nextJsLogo,
+      alt: 'NextJs Logo',
+    },
+    {
+      link: 'https://react.dev/',
+      src: reactLogo,
+      alt: 'React Logo',
+    },
+    {
+      link: 'https://tailwindcss.com/',
+      src: tailwindCssLogo,
+      alt: 'Tailwind CSS Logo',
+    },
+    {
+      link: 'https://www.typescriptlang.org/',
+      src: typescriptLogo,
+      alt: 'Typescript Logo',
+    },
+  ],
+};
 
 // Features data on Home page *******************
 export const featuresHome: FeaturesProps = {
