@@ -26,7 +26,7 @@ Tööriistade saadavust saab kontrollida telefoni ja e-posti teel. Broneering ki
 
 ## 5. Kohaletoimetamine ja tagastamine
 
-Tööriistad tuleb kliendil tagastada STR Rendi asukohas Kesk tänav 10, Valgas, kui ei ole kokku lepitud teisiti. Valga linna piires on kohaletoimetamine tasuta. Valga vallas on kohaletoimetamise tasu 10 eurot ühe suuna kohta kuni 10 km raadiuses. Iga lisakilomeetri eest lisandub 0,50 eurot. Hilinenud tagastamisel rakendub trahv iga hilinetud päeva eest.
+Tööriistad tuleb rentnikul tagastada STR Rendi asukohas Kesk tänav 10, Valgas, kui ei ole kokku lepitud teisiti. Valga linna piires on kohaletoimetamine tasuta. Valga vallas on kohaletoimetamise tasu 10 eurot ühe suuna kohta kuni 10 km raadiuses. Iga lisakilomeetri eest lisandub 0,50 eurot. Hilinenud tagastamisel rakendub trahv iga hilinetud päeva eest.
 
 ## 6. Tööriista kasutamise tingimused
 
@@ -34,7 +34,7 @@ Rentnik kinnitab, et on tutvunud renditava vara tehnilise seisukorra ja kasutusj
 
 ## 7. Hooldus ja rikete käsitlemine
 
-Klient peab viivitamatult, kuid mitte hiljem kui 24 tunni jooksul pärast rikke avastamist või tööriista kahjustumist, teavitama STR Renti, kas telefonitsi või e-posti teel. Rendileandja teostab rikete hindamise ja määrab, kas need on põhjustatud tavapärasest kulumisest või valest kasutamisest. Rentnik on kohustatud hüvitama remondi- või asenduskulud, kui kahju on põhjustatud rentniku hooletusest või valest kasutusest.
+Rentnik peab viivitamatult, kuid mitte hiljem kui 24 tunni jooksul pärast rikke avastamist või tööriista kahjustumist, teavitama STR Renti, kas telefonitsi või e-posti teel. Rendileandja teostab rikete hindamise ja määrab, kas need on põhjustatud tavapärasest kulumisest või valest kasutamisest. Rentnik on kohustatud hüvitama remondi- või asenduskulud, kui kahju on põhjustatud rentniku hooletusest või valest kasutusest.
 
 ## 8. Kindlustus ja vastutus
 
@@ -42,7 +42,7 @@ Tööriistad on kindlustatud juhuslike õnnetuste ja varguste vastu. Rentniku om
 
 ## 9. Lepingu lõpetamine
 
-STR Rent võib lepingu lõpetada, kui klient rikub käesolevaid tingimusi. Sellisel juhul peab klient viivitamatult tagastama kõik renditud tööriistad.
+STR Rent võib lepingu lõpetada, kui rentnik rikub käesolevaid tingimusi. Sellisel juhul peab rentnik viivitamatult tagastama kõik renditud tööriistad.
 
 ## 10. Muudatused ja täiendused
 
